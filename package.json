@@ -1,13 +1,19 @@
 {
   "name": "bot-probe",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Headless Playwright probe for bot/agent detection signals.",
+  "main": "bot-probe.mjs",
+  "type": "module",
   "scripts": {
+    "start": "node bot-probe.mjs",
+    "probe": "node bot-probe.mjs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": ["playwright","bot","probe","automation","detection"],
   "author": "",
   "license": "ISC",
+  "dependencies": {
+    "playwright": "^1.44.0"
+  },
   "packageManager": "pnpm@10.33.0"
 }
